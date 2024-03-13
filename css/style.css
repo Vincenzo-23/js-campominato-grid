@@ -38,23 +38,27 @@ img{
 /* Main */
 
 .grid_wrapper{
-    padding: 40px;
+    padding: 60px;
     background-color: rgb(127, 255, 212);
 }
 
 .container{
-    width: 800px;
+    max-width: 640px;
     margin: 0 auto;
 }
 
-.cell{
-    aspect-ratio: 1/1;
-    border: 2px solid black;
-}
 
 .grid{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
+}
+
+
+.cell{
+    width: 80px;
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+    
 }
 
 .bg_blue{
@@ -63,3 +67,7 @@ img{
 
 
 /* Footer */
+
+.credits{
+    padding: 10px;
+}
