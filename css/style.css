@@ -1,3 +1,4 @@
+/* RESET */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +9,9 @@ img{
     display: block;
 }
 
+/* STYLES */
+
+/* Header */
 .logo{
     width: 70px;
 }
@@ -29,3 +33,33 @@ img{
 .play_btn{
     padding: 3px 15px;
 }
+
+
+/* Main */
+
+.grid_wrapper{
+    padding: 40px;
+    background-color: rgb(127, 255, 212);
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.cell{
+    aspect-ratio: 1/1;
+    border: 2px solid black;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.bg_blue{
+    background-color: rgb(105, 213, 255);
+}
+
+
+/* Footer */
