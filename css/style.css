@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+}
+
+.logo{
+    width: 70px;
+}
+
+.container_lg{
+    padding: 20px 10px;
+    padding-right: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin-right: auto;
+}
+
+.play_btn{
+    padding: 3px 15px;
+}
