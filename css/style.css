@@ -17,7 +17,7 @@ img{
 }
 
 .container_lg{
-    padding: 20px 10px;
+    padding: 10px;
     padding-right: 20px;
 }
 
@@ -43,19 +43,18 @@ img{
 }
 
 .container{
-    max-width: 640px;
+    max-width: 650px;
     margin: 0 auto;
 }
 
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(10, 1fr);
 }
 
 
 .cell{
-    width: 80px;
     aspect-ratio: 1/1;
     border: 2px solid black;
     
