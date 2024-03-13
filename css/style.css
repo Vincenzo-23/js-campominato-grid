@@ -32,6 +32,7 @@ img{
 
 .play_btn{
     padding: 3px 15px;
+    cursor: pointer;
 }
 
 
@@ -57,6 +58,10 @@ img{
 .cell{
     aspect-ratio: 1/1;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     
 }
 
