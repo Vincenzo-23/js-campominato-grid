@@ -24,6 +24,7 @@ img{
 .row{
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 .title{
@@ -51,7 +52,8 @@ img{
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    /* grid-template-columns: repeat(10, 1fr); */
+    user-select: none;
 }
 
 
